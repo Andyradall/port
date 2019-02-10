@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="./css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="./css/font-import.css">
+    <!--   <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.typekit.net/sum5jui.css"> -->
+    <link rel="stylesheet" type="text/css" href="./css/index.css">
+
+    <title>Portefolio</title>
+</head>
+
+<body>
+    <header>
+        <ul>
+            <li><a href="#home">Home <div class="strek"></div>
+                </a></li>
+            <li><a href="#about">About <div class="strek"></div>
+                </a></li>
+            <li><a href="#headline">Projects <div class="strek"></div>
+                </a></li>
+            <li><a href="#contact">Contact <div class="strek"></div>
+                </a></li>
+        </ul>
+    </header>
+    <main>
+
+        <Section id="home">
+            <section class="helloworld">
+                <section class="height">
+                    <h1>Hello</h1>
+                    <h1 id="white">World!</h1>
+                </section>
+            </section>
+
+            <section class="welcome">My name is Anders. Welcome to my <br>
+                portfolio site.</section>
+            <button type="button" class="arrow">
+                <a href="#about"><img src="../Portefølje/ikoner/Artboardarrow.png" /></a>
+            </button>
+        </section>
+
+
+        <section>
+            <section class="rotate">
+                <p>ABOUT ME</p>
+            </section>
+            <section id="about">
+
+                <p>I finish my Interaction Design studies in the spring of 2019 🏆🎓 <br>
+                    I have training in the whole UX design process.
+                    From user research and prototyping. Responsive web solutions, with a user centered.
+                    My goal is to become a full stack developer. I find joy in
+                    creative, new and bold solutions 🧨
+                </p>
+                <p>
+                    My background is managing coffee bars. Slinging hand brewed ☕️ and good vibes. My spare time favs
+                    is running in nature and self development 🧘🏃🏻‍
+                </p>
+            </section>
+            <button type="button" class="arrow">
+                <a href="#headline"><img src="../Portefølje/ikoner/Artboardarrow.png" /></a>
+            </button>
+        </section>
+
+
+        <section id="headline">
+            <p>SELECTED WORKS:</p>
+        </section>
+
+        <section id="projects">
+
+            <!-- 
+            <article class="entry">
+                <img class="entryImg" src="./img/screen.jpg" alt="">
+                <h2>Desktop applikasjon</h2>
+                <p> Realtime temperaturwidget.</p>
+                <p>Node og Elektron</p>
+            </article>
+            <article class="entry">
+                <img class="entryImg2" src="./img/allEars.png" alt="">
+                <h2>Kampanjeside</h2>
+                <p>Interaktiv kampanjeside.</p>
+                <p>Html, Css, JavaScript</p>
+            </article>
+            <article class="entry">
+                <img class="entryImg3" src="./img/avis.png" alt="">
+                <h2>Nettavis</h2>
+                <p>Prototype på en nettavis.</p>
+            </article>
+
+            <article class="entry">
+                <img class="entryImg" src="./img/Arduino.png" alt="">
+                <h2>Arduino</h2>
+                <p>Arduino og programmering</p>
+            </article>
+                -->
+        </section>
+
+        <section>
+            <section class="contactrotate">
+                <p>CONTACT</p>
+            </section>
+            <button type="button" class="arrowspin">
+                <a href="#home"><img src="../Portefølje/ikoner/Artboardarrow.png" /></a>
+            </button>
+            <section>
+                <section id="contact">
+                    <p>🙋‍♂️ Anders Huseby Rådal 📲 97670216 📨 Andershr2@gmail.com </p>
+                </section>
+            </section>
+        </section>
+    </main>
+
+</body>
+
+<script src="https://www.gstatic.com/firebasejs/5.8.0/firebase.js"></script>
+<script>
+    // Initialize Firebase
+    var config = {
+        apiKey: "AIzaSyBnIhyZwx-pgjtnErw3hUERgQ-c1NkvrIY",
+        authDomain: "ixds-49408.firebaseapp.com",
+        databaseURL: "https://ixds-49408.firebaseio.com",
+        projectId: "ixds-49408",
+        storageBucket: "ixds-49408.appspot.com",
+        messagingSenderId: "749060960660"
+    };
+    firebase.initializeApp(config);
+</script>
+
+<script src="./js/script.js"></script>
+
+</html>

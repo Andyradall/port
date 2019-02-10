@@ -1,0 +1,282 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  color: #f6f6f6;
+  background: #0D1212;
+  /* background: linear-gradient(#0D1212,#30393D, #0D1212); */
+    /*#0078CF;*/
+   /* #0D1212; */
+  margin: 0;
+  font-family: 'proxima_nova_ththin', 'proxima_nova_ltlight', sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  font-family: 'proxima_nova_rgregular';
+  width: 100%;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  position: fixed;
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+}
+
+li {
+  display: inline;
+}
+
+li a {
+  display: inline-grid;
+  padding-bottom: 0.5rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-decoration: none;
+  font-size: 2.2rem;
+  font-weight: 100;
+  background-size: 200% 100%;
+  color: #525252;
+  transition: 1.5sec;
+}
+
+li a .strek {
+  height: 2px;
+  background-image: linear-gradient(to right, transparent 50%, #F6F6F6 50%);
+  background-size: 201.5% 100%;
+  transition: 1s cubic-bezier(0.25, 0.1, 0.19, 0.65);
+}
+
+li a:hover {
+  color: #F6F6F6;
+  transition: 2.5sec;
+  background-position: 100% 0;
+  transition: color 1.2s ease, transform 1.4s ease 0.1s, opacity 0.4s ease 0.1s;
+}
+
+li a:hover .strek {
+  background-position: -100% 0;
+}
+
+@media (max-width: 750px) {
+  header {
+    display: none;
+  }
+}
+
+main {
+  max-width: 970px;
+  margin: 0 auto; 
+  font-size: 3rem;
+}
+
+#home {
+  display: grid; 
+  align-items: center;
+  justify-content: center;
+ /* border: 1px solid #00F4CB; */
+ margin-bottom: 12rem; 
+}
+
+.helloworld {
+  display: inline-grid;
+  align-items: center;
+  justify-content: center;
+}
+
+.height {
+  height: 37.2rem;
+}
+
+h1 {
+  font-family: 'Futura PT', /*'futura-pt',*/ sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 16.5rem;
+  color: #C5C5C5;
+  margin: 5rem; 
+}
+
+#white {
+  color: #F6F6F6;
+  transform: translateY(-14.67rem);
+  letter-spacing:-2.55px; 
+}
+
+.welcome {
+  display: inline-grid; 
+  text-align: center;
+  font-family: 'proxima_nova_ththin', 'proxima_nova_ltlight';
+  font-weight: 100;
+  font-size: 2.3rem;
+}
+
+button, button img {
+  width: 100px;
+  background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	cursor: pointer;
+}
+ 
+.arrow { 
+  transform: translate(44rem, -4.3rem);
+}
+
+.arrow:hover {
+  animation: bounce 1s infinite alternate;
+}
+
+@keyframes bounce {
+  from {
+    transform: translate(44rem, -4rem);
+  }
+  to {
+    transform: translate(44rem, -3rem);
+  }
+}
+
+p {
+  font-family: 'proxima_nova_ththin', 'proxima_nova_ltlight', 'Open Sans';
+  font-weight: 100;
+  font-size: 1.8rem;
+  margin-top: 0;
+}
+
+#about {
+  height: 29rem; 
+  column-count: 2;
+  text-align: left;
+  padding: 2.6rem 2.6rem 3rem 3rem;
+  border: 1px solid #979797;
+  line-height: 1.22;
+  margin-bottom: 2rem;
+  box-shadow: 20px 38px #1e1f1f; 
+}
+
+.rotate { 
+  position: absolute;
+}
+
+.rotate p { 
+  position: relative;
+  font-family: 'Futura PT Cond' /*'futura-pt-condensed'*/; 
+  font-size: 7.6rem;
+  font-weight: 700;
+  transform: translate(-17rem, 10.2rem) rotate(-90deg);
+  color: #c2c2c2;
+}
+
+#projects {
+  padding: 0rem;
+  grid-gap: 5rem;
+  grid-row-gap: 0rem; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 820px 500px;
+  /* border: 1px solid #00F4CB; */
+  margin-bottom: 10rem; 
+}
+
+#headline {
+  padding-top: 2rem;
+  margin-top: 5rem;
+  padding-bottom: 0.5rem;
+  grid-column-end: span 2;
+}
+
+#headline p {
+  font-family: 'Futura PT Cond' /*'futura-pt-condensed'*/; 
+  font-size: 7.6rem;
+  font-weight: 700;
+  color: #c2c2c2;
+  text-align: center;
+  margin: 0;
+  padding: 0;  
+}
+
+.entry {
+  font-family: 'proxima_nova_ltlight';
+  font-weight: 400;
+  font-size: 1.8rem;
+  margin-top: 0;
+  height: 630px;
+  text-align: center;
+  color: #f6f6f6;
+  border: 1px solid #979797;
+  /* border-radius: 0.07rem; */
+  box-shadow: 20px 38px #1e1f1f; 
+
+}
+
+h2 {
+  font-size: 2rem;
+  font-family: 'futura PT';
+  font-weight: 500;
+  text-transform: uppercase;
+  font-style: normal;
+}
+
+.entryImg {
+  padding-top: 1.34rem;
+  width: 400px;
+  overflow: auto;  
+}
+
+.entry:hover {
+  /* box-shadow:0 8px 35px rgba(126, 126, 137, 0.15); */ 
+  box-shadow: 20px 38px #1e1f1f; 
+}
+
+#projects article {
+  border: 1px solid #979797;
+  
+}
+
+#contact {
+  margin-top: 2rem;
+  margin-bottom: 14rem; 
+  padding: 5.3rem 2.2rem 7rem 3rem;
+  text-align: center;
+  border: 1px solid #979797;
+  box-shadow: 20px 38px #1e1f1f; 
+}
+
+.contactrotate { 
+  position: absolute;
+  padding: 0; 
+  margin: 0; 
+
+}
+
+.contactrotate p { 
+  position: relative;
+  font-family: 'Futura PT Cond' /*'futura-pt-condensed'*/; 
+  font-size: 7.6rem;
+  font-weight: 700;
+  transform: translate(-15rem, 18.5rem) rotate(-90deg);
+  color: #c2c2c2;
+}
+
+.arrowspin { 
+  transform: translate(44rem, 7rem);
+}
+
+.arrowspin:hover {
+  transform: translate(44rem, 7rem) rotateX(-180deg);
+  transition-duration: 1s;
+}
+
+/* diskret drop shadow
+box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+} */
