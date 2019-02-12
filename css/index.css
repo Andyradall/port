@@ -179,14 +179,14 @@ p {
 
 
 
-#headline {
+#selected {
   padding-top: 2rem;
   margin-top: 5rem;
   padding-bottom: 0.5rem;
   grid-column-end: span 2;
 }
 
-#headline p {
+#selected p {
   font-family: 'Futura PT Cond' /*'futura-pt-condensed'*/; 
   font-size: 7.6rem;
   font-weight: 700;
@@ -234,7 +234,7 @@ h2 {
 }
 
 .entryImg {
-  padding-top: 1.34rem;
+  padding-top: 1.14rem;
   width: 400px;
   overflow: auto;  
 }
@@ -270,7 +270,7 @@ h2 {
   font-family: 'Futura PT Cond' /*'futura-pt-condensed'*/; 
   font-size: 7.6rem;
   font-weight: 700;
-  transform: translate(-15rem, 18.5rem) rotate(-90deg);
+  transform: translate(-15rem, 18.6rem) rotate(-90deg);
   color: #c2c2c2;
 }
 
