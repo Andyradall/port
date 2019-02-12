@@ -46,7 +46,7 @@ li a {
   font-weight: 100;
   background-size: 200% 100%;
   color: #525252;
-  transition: 1.5sec;
+  transition: 1.5s;
 }
 
 li a .strek {
@@ -58,7 +58,7 @@ li a .strek {
 
 li a:hover {
   color: #F6F6F6;
-  transition: 2.5sec;
+  transition: 2.5s;
   background-position: 100% 0;
   transition: color 1.2s ease, transform 1.4s ease 0.1s, opacity 0.4s ease 0.1s;
 }
@@ -168,7 +168,7 @@ p {
   position: absolute;
 }
 
-.rotate p { 
+.rotate p {
   position: relative;
   font-family: 'Futura PT Cond'; 
   font-size: 7.6rem;
@@ -199,7 +199,7 @@ p {
 #projects {
 
   grid-gap: 5rem;
-  grid-row-gap: 0rem; 
+  grid-row-gap: 0; 
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 820px 500px;
@@ -265,8 +265,8 @@ h2 {
 
 }
 
-.contactrotate p { 
-  position: relative;
+.contactrotate p {
+  position: relative; 
   font-family: 'Futura PT Cond' /*'futura-pt-condensed'*/; 
   font-size: 7.6rem;
   font-weight: 700;
