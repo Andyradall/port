@@ -177,16 +177,7 @@ p {
   color: #c2c2c2;
 }
 
-#projects {
-  padding: 0rem;
-  grid-gap: 5rem;
-  grid-row-gap: 0rem; 
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 820px 500px;
-  /* border: 1px solid #00F4CB; */
-  margin-bottom: 10rem; 
-}
+
 
 #headline {
   padding-top: 2rem;
@@ -203,6 +194,17 @@ p {
   text-align: center;
   margin: 0;
   padding: 0;  
+}
+
+#projects {
+  padding: 0rem;
+  grid-gap: 5rem;
+  grid-row-gap: 0rem; 
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 820px 500px;
+  /* border: 1px solid #00F4CB; */
+  margin-bottom: 10rem; 
 }
 
 .entry {
