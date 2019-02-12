@@ -170,7 +170,7 @@ p {
 
 .rotate p { 
   position: relative;
-  font-family: 'Futura PT Cond' /*'futura-pt-condensed'*/; 
+  font-family: 'Futura PT Cond'; 
   font-size: 7.6rem;
   font-weight: 700;
   transform: translate(-17rem, 10.2rem) rotate(-90deg);
