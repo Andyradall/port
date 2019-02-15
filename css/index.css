@@ -71,6 +71,8 @@ li a:hover .strek {
   header {
     display: none;
   }
+  
+
 }
 
 main {
@@ -104,6 +106,7 @@ h1 {
   font-size: 16.5rem;
   color: #C5C5C5;
   margin: 5rem; 
+  /* -webkit-text-stroke: 4px #0D1212; */ 
 }
 
 #white {
@@ -154,14 +157,15 @@ p {
 }
 
 #about {
-  height: 29rem; 
+  /* height: 29rem; */
   column-count: 2;
   text-align: left;
-  padding: 2rem 2.6rem 2rem 3rem;
+  padding: 2rem 2.6rem 0 3rem;
   border: 1px solid #979797;
   line-height: 1.22;
   margin-bottom: 2rem;
   box-shadow: 20px 38px #1e1f1f; 
+  overflow: hidden; 
 }
 
 .rotate { 
@@ -225,7 +229,7 @@ p {
 }
 
 h2 {
-  font-size: 1.8rem;
+  font-size: 2.0rem;
   font-family: 'futura PT';
   font-weight: 500;
   margin-bottom: 0.6rem;
