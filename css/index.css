@@ -191,7 +191,7 @@ p {
 }
 
 #selected p {
-  font-family: 'Futura PT Cond' /*'futura-pt-condensed'*/; 
+  font-family: 'Futura PT Cond'; /*'futura-pt-condensed'*/; 
   font-size: 7.6rem;
   font-weight: 700;
   color: #c2c2c2;
