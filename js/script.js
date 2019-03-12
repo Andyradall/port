@@ -18,3 +18,9 @@ function visProsjekt(snap) {
 }
 
 prosjekter.on("child_added", visProsjekt);
+
+function triggerVisibility() {
+    console.log("button press");
+    document.getElementById("before").style.display ="none";
+    document.getElementById("after").style.display ="block";
+}
